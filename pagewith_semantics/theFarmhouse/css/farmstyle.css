@@ -1,0 +1,111 @@
+/* ALWAYS FONT AT TOP */
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.beau-rivage-regular, h1, h2 {
+  font-family: "Beau Rivage", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto, body{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 900;
+}
+
+header, footer{
+    background-color: rgb(95, 30, 21);
+
+    text-align: center;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    color: white;
+}
+
+body{
+    background: #8a3a2c;
+background: linear-gradient(180deg,rgba(138, 58, 44, 1) 0%, rgba(171, 89, 48, 1) 100%);
+
+padding: 0;
+margin: 0;
+}
+
+/* classes are reausable and acan be added to many html tags */
+.bg-dark{
+    background-color: rgba(99, 45, 31, 0.753);
+}
+
+.bg-light{
+    background-color: #6d392f;
+}
+
+section{
+    max-width: 960px;
+
+    margin: auto;
+
+    color: white;
+
+    padding: 15px;
+
+    margin-bottom: 20px;
+
+    -webkit-box-shadow: 0px 13px 21px 5px rgba(0,0,0,0.59); 
+box-shadow: 0px 13px 21px 5px rgba(0,0,0,0.59);
+
+/* stops content from overflowing */
+    overflow: hidden;
+}
+
+section img{
+    float: left;
+    margin-right: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4b0e0e;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #360b0b;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(167, 98, 43);
+    text-decoration: none;
+}
+
+.container{
+display: grid;
+grid-template-columns: auto auto auto;
+}
