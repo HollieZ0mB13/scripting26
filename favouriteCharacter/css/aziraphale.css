@@ -1,0 +1,354 @@
+/* !!!!!!!!!!!!! FONTS !!!! */
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
+.beau-rivage-regular, h1{
+  font-family: "Beau Rivage", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.beau-rivage-regular, h2.special-head, i{
+  font-family: "Beau Rivage", cursive;
+  font-weight: 350;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.beau-rivage-regular, h2, h3{
+  font-family: "Beau Rivage", cursive;
+  font-weight: 350;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.cormorant-uniquifier, p, a, h4 {
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HEADER !!!!!!!!!!!!!!!!!!!! */
+header{
+    background-image: url("../images/lace.jpg");
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+footer{
+    background-color: rgb(37, 37, 37);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+footer p{
+    color: #d1cece;
+}
+
+footer a{
+    color: #aaaaaa;
+    text-decoration: none;
+}
+
+h2.special-head{
+    color: #00000094;
+}
+
+h1{
+    color: rgb(41, 42, 43);
+    text-decoration: underline;
+}
+
+i{
+    color: #00000094;
+}
+
+body{
+    
+    background: #ffffff;
+background: linear-gradient(180deg, rgba(255, 255, 255, 1)35%, rgba(38, 36, 36, 1) 100%);
+    
+    padding: 0;
+    margin: 0;
+
+
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! HEADER !!!!!!!!!!!!!! */
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!! NORMAL SECTION !!!!!!!!!!!!! */
+section{
+    max-width: 960px;
+    margin: auto;
+    padding: 15px;
+    margin-bottom: 20px;
+
+    box-shadow: 10px 10px 12px 5px rgba(247, 221, 151, 0.21);
+-webkit-box-shadow: 10px 10px 12px 5px rgba(247, 221, 151, 0.21);
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!! NORMAL SECTION !!!!!!!!!!!!! */
+
+/* !!!!!!!!!!!!!! ABOUT !!!!! */
+/* about is a little diff so i made it as its own thing */
+.bg-about{
+    background-color: #c5c3c375;
+}
+
+
+section.bg-about h2{
+    text-decoration: underline;
+   
+   color: rgb(109, 93, 93);
+     /* Push the heading to the left so text wraps around its right side */
+  float: left; 
+  
+  /* Give it a maximum width so it leaves room for the paragraph text */
+  max-width: 40%; 
+  
+  /* Push the paragraph text away from the right and bottom edges */
+  margin-right: 20px;
+  margin-bottom: 10px;
+  
+  /* Optional: Reset default margins to prevent unexpected spacing alignment */
+  margin-top: 0;
+    padding-top: 10%;
+}
+
+
+section.bg-about p{
+    color: rgb(85, 83, 83);
+    text-align: right;
+    margin-left: 40%;
+    
+}
+
+
+section.bg-about a{
+    text-align: left;
+    color: rgb(109, 93, 93);
+    text-decoration: none;
+
+}
+
+/* !!!!!!!!!!!!!! ABOUT !!!!! */
+
+
+
+/* backgrounds for everything else */
+.bg-dark, section.bg-ref{
+    background-color: rgba(80, 82, 82, 0.877);
+}
+
+section.bg-dark, section.bg-ref{
+    max-width: 960px;
+    margin: auto;
+    color: rgb(212, 216, 216);
+    padding: 15px;
+    margin-bottom: 20px;
+
+    overflow: hidden;
+}
+
+section.bg-dark h3{
+    text-decoration: underline;
+    text-align: right;
+    padding-right: 12%;
+    padding-left: 65%;
+}
+
+section.bg-dark h4{
+    text-align: right;
+    padding-right: 10%;
+    padding-left: 20%;
+}
+
+section.bg-dark p{
+    text-align: right;
+    float: right;
+    max-width: 45%;
+    margin-right: 20px;
+  margin-bottom: 10px;
+  display: flow-root;
+}
+
+section.bg-dark img{
+    float: left;
+}
+
+
+
+.bg-light, .bg-ff{
+    background-color: rgba(167, 160, 160, 0.76);
+}
+
+
+section.bg-light, .bg-ff{
+    max-width: 960px;
+    margin: auto;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    margin-bottom: 20px;
+
+    overflow: hidden;
+}
+
+section.bg-light h3{
+    text-decoration: underline;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 65%;
+}
+
+section.bg-light img{
+    float: right;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! season 3 smh */
+.bg-three{
+    background-color: rgba(80, 82, 82, 0.877);
+}
+
+section.bg-three{
+    max-width: 960px;
+    margin: auto;
+    color: rgb(212, 216, 216);
+    padding: 15px;
+    margin-bottom: 20px;
+
+    overflow: hidden;
+}
+
+section.bg-three h3{
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+section.bg-three h4{
+    text-align: center;
+  
+}
+
+section.bg-three p{
+    text-align: center;
+  
+}
+
+section.bg-three img{
+    float: left;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!season 3 smh */
+
+section.bg-ref h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+section.bg-ref ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c5c3c375;
+}
+
+section.bg-ref ul li {
+  float: left;
+}
+
+section.bg-ref ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+section.bg-ref ul li a:hover {
+  background-color: #d1cece;
+}
+
+section.bg-ref a{
+    color: white;
+}
+
+section.bg-ref a:hover{
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+}
+
+section.bg-ff h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+section.bg-ff ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #58585875;
+}
+
+section.bg-ff ul li{
+   display: block;
+  color: rgb(46, 46, 46);
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! NAVIGATIONNNNN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+nav ul{
+  list-style-type: none; /* Removes bullet points */
+  margin: auto;
+  padding: 0;
+  display: flex;         /* Activates Flexbox */
+  justify-content: center; /* Horizontally centers links */
+  align-items: center;     /* Vertically centers links */
+  background-color: rgb(233, 233, 233);
+}
+
+
+nav ul li a{
+    display: block;
+    color: rgb(134, 132, 132);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(150, 148, 151);
+}
+
+nav{
+    position: sticky;
+    top: 0;
+}
+
+a{
+    color: darkgray;
+}
+
+a:hover{
+    color: rgb(85, 82, 82);
+    text-decoration: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
