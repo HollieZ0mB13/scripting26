@@ -1,0 +1,104 @@
+css
+
+
+.creepster-regular, h1 {
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.creepster-regular, h2, h4 {
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.im-fell-french-canon-regular, p, h5 {
+  font-family: "IM Fell French Canon", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+/* FONTS */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #7f8c4f; /* Replace with your desired color */
+}
+
+header{
+    background-color:#36593E;
+    -webkit-box-shadow: -2px 2px 10px 11px rgba(85,140,98,0.53), -2px 2px 19px 11px rgba(36,59,41,0.53); 
+box-shadow: -2px 2px 10px 11px rgba(85,140,98,0.53), -2px 2px 19px 11px rgba(36,59,41,0.53);
+}
+
+.btn-brownli{
+    background-color: #f2e2ce;
+    
+}
+
+.navbar-custom{
+    background-color: #7f8c4f;
+    color: #a68d6f;
+}
+
+nav ul li a{
+    display: block;
+    color: #a68d6f;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #a6a26d;
+}
+
+
+header h1{
+    color: #a68d6f;
+}
+
+header h5{
+    color: #a6a26d;
+}
+
+h2{
+    color: #36593E;
+}
+
+.bg-br{
+    background-color: #a6a26d;
+     color: #f2e2ce;
+     -webkit-box-shadow: -2px 2px 10px 11px rgba(85,140,98,0.53), -2px 2px 19px 11px rgba(36,59,41,0.53); 
+box-shadow: -2px 2px 10px 11px rgba(85,140,98,0.53), -2px 2px 19px 11px rgba(36,59,41,0.53);
+}
+
+.bg-lig, h4{
+    background-color: #36593E;
+    color: #f2e2ce;
+    
+}
+
+.bg-above{
+    background-color: #f2e2cec4;
+    color: #36593E;
+    
+}
+
+.bg-port{
+    background-color: #a68d6f;
+}
+
+
+
+
+a{
+    color: #36593E;
+    text-decoration: none;
+}
